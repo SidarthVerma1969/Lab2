@@ -7,8 +7,9 @@
     height: 450px;
     width: 100%;
     border: 2px dotted black;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
 }
 .box1, .box2, .box3{
     height: 400px;
@@ -19,6 +20,7 @@
     margin: 10px;
     padding: 10px;
     cursor: pointer;
+    box-shadow: 10px 10px black;
 }
 
 .box1:hover,.box2:hover,.box3:hover {
@@ -27,7 +29,7 @@
 }
 
 .box1{
-    background-color: black;
+    background-color: rgb(42, 133, 80);
 }
 
 a{
@@ -46,4 +48,32 @@ a:hover{
 .box3{
     background-color: blue;
 
+}
+
+.navigation nav ul{
+    display: flex;
+    height:50px;
+    background-color: rgba(0, 0, 0, 0.309);
+    color: #FFFFFF;
+    font-size: larger;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.navigation ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+main .container p{
+    text-align: center;
+    line-height: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.309);
+    padding: 10px;
+    font-size: large;
 }
